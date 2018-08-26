@@ -1,43 +1,43 @@
 const letterButtons = document.getElementById('letter-buttons');
 var time;
 var hints = [{
-                pic: 'assets/images/taylor.png',
+                pic: 'Assets/images/taylor.png',
                 hint: '#56 Lawrence'
             }, 
             {
-                pic:"assets/images/barber.png",
+                pic:"Assets/images/barber.png",
                 hint:'#21 Tiki'
             },
             {
-                pic:"assets/images/strahan.png",
+                pic:"Assets/images/strahan.png",
                 hint:'#92 Michael'
             },
             {
-                pic:"assets/images/manning.png",
+                pic:"Assets/images/manning.png",
                 hint:'#10 Eli'
             },
             {
-                pic:"assets/images/beckham.png",
+                pic:"Assets/images/beckham.png",
                 hint:'#13 Odell'
             },
             {
-                pic:"assets/images/gifford.png",
+                pic:"Assets/images/gifford.png",
                 hint:'#16 Frank'
             },
             {
-                pic:"assets/images/cruz.png",
+                pic:"Assets/images/cruz.png",
                 hint:'#80 Victor'
             },
             {
-                pic:"assets/images/simms.png",
+                pic:"Assets/images/simms.png",
                 hint:'#11 Phil'
             },
             {
-                pic:"assets/images/banks.png",
+                pic:"Assets/images/banks.png",
                 hint:'#58 Carl'
             },
             {
-                pic:"assets/images/carson.png",
+                pic:"Assets/images/carson.png",
                 hint:'#53 Harry'
             }];
 var randomNum;
