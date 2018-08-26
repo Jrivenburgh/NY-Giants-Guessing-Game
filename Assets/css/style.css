@@ -1,0 +1,21 @@
+
+#jumbo{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    border:thin solid rgb(2, 34, 121);
+    background-color: #07058d3b;
+    height: 300px;
+}
+.container{
+    border: solid rgb(133, 1, 1) thin;
+
+}
+.card{
+    border:thin solid rgb(2, 34, 121);
+}
+#wrong-buttons{
+    border: solid rgb(133, 1, 1) thin;
+}
+#letter-buttons{
+    border:thin solid rgb(2, 34, 121);
+}

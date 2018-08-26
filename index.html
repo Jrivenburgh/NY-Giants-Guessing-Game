@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel='stylesheet' href="assets/css/style.css">
+    <title>Hangman</title>
+</head>
+<body>
+    <div id="jumbo" class="jumbotron text-center">
+        <h1 class="display-4">New York Giants Hangman!</h1>
+        <hr class="my-4">
+        <div id="wrap">
+          <p>Look at the hint for the players first name and number. Solve the players last name!</p>
+          <a href="#guess-area"><button class="btn btn-primary btn-lg start-game">PLAY</button></a>
+          <button class="btn btn-primary btn-lg reset-game">RESET</button>
+        </div>
+        
+      </div>
+
+      <div class="container">
+        <div class="card">
+          <div class="text-center card-header">
+            Wrong Letters
+          </div>
+          <div id="wrong-buttons" class="card-body"></div>
+        </div>
+        
+        <div id="letter-div" class="card">
+          <div class="text-center card-header">
+            Letters
+          </div>
+          <div id="letter-buttons" class="card-body"></div>
+        </div>
+      </div>
+    
+        <div class="container">
+        <div class="row mt-4">
+          <div class="col-sm-6">
+            <div class="card">
+              <div id="game2" class=".game card-body text-center">
+                <img id="game-image" img src="Assets/images/New_York_Giants.png" class="img-fluid img-thumbnail" alt="img will go here">
+                <p id='hint'></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div id="game1" class=".game card-body">
+                <h5 class="card-title">Click a letter to make a guess!</h5>
+                <p id="guess-area" class="card-text">_ _ _ _ _</p>
+                <p id="guess-count" class="card-text">Guesses Left: 0</p>
+                <p id="letter-picked" class="card-text">Letters Guessed: 0</p>
+                <p id='wins' class="card-text">Wins: 0</p>
+                <p id='lose'class="card-text">Losses: 0</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- <script src="assets/javascript/game.js"></script> -->
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
